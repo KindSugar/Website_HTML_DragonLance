@@ -1,0 +1,76 @@
+/* Стили для главной страницы */
+.hr1 {
+    margin: 25px 0;
+    padding: 0;
+    height: 1px;
+    border: none;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.hr2 {
+    margin: 25px 0;
+    padding: 0;
+    height: 8px;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 8px 8px -8px #8c8b8b inset;
+}
+
+/* Списки */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+    font-size: 1rem;
+}
+
+li {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+dl {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+dt {
+    margin: 18px 0 10px 0;
+    font-weight: bold;
+}
+
+dd {
+    margin: 8px 0 12px 20px;
+    line-height: 1.5;
+}
+
+/* Стили для списка литературных аллюзий */
+dd ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+dd li {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+dd li:last-child {
+    margin-bottom: 0;
+}
+
+/* Улучшенные стили для цитат */
+blockquote {
+    font-style: italic;
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 15px;
+    margin: 20px 0;
+    background: rgba(141, 113, 179, 0.05);
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+    margin: 0;
+    line-height: 1.5;
+}

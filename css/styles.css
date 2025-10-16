@@ -1,0 +1,30 @@
+/* Главный файл стилей - импорты */
+@import url('base/reset.css');
+@import url('base/variables.css');
+@import url('base/typography.css');
+
+@import url('components/cards.css');
+@import url('components/navigation.css');
+@import url('components/buttons.css');
+@import url('components/tables.css');
+@import url('components/images.css');
+
+@import url('pages/home.css');
+@import url('pages/authors.css');
+@import url('pages/story.css');
+@import url('pages/releases.css');
+
+@import url('utils/responsive.css');
+@import url('utils/animations.css');
+
+/* Дополнительные глобальные стили */
+body {
+    color: #3F2719;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+        url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}

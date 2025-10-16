@@ -1,0 +1,85 @@
+/* Кнопки */
+.toggle-btn {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(90, 57, 33, 0.2);
+}
+
+.toggle-btn:hover {
+    background: var(--accent-color);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 3px 8px rgba(90, 57, 33, 0.3);
+}
+
+/* Официальный баннер */
+.official-banner {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.banner-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 16px 40px;
+    width: auto;
+    min-width: 300px;
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('../../img/офсайт.png') center/cover,
+        #fff5eb;
+    color: #5a3921 !important;
+    text-decoration: none;
+    border-radius: 45px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(255, 232, 212, 0.5);
+    border: 2px solid #fff4e8;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-link:hover {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+        url('../../img/офсайт.png') center/cover,
+        #fff0e0;
+    color: #3F2719 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(255, 232, 212, 0.7);
+    border-color: #ffe8d4;
+}
+
+.banner-text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+    margin-right: auto;
+}
+
+.banner-arrow {
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.banner-link:hover .banner-arrow {
+    transform: translateX(4px) scale(1.1);
+}

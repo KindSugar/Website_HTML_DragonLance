@@ -1,0 +1,69 @@
+/* Навигация */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.nav-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.125rem;
+}
+
+.nav-list li {
+    margin: 12px 0;
+}
+
+.nav-list a {
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    background: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(141, 113, 179, 0.3);
+}
+
+/* Навигация по главам */
+.chapter-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.chapter-nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    font-size: 0.85rem;
+}
+
+.chapter-nav a:hover {
+    background: var(--secondary-color);
+    color: white;
+}

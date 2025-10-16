@@ -1,0 +1,27 @@
+/* CSS переменные */
+:root {
+    /* Цвета */
+    --primary-color: #3F2719;
+    --secondary-color: #8d71b3;
+    --accent-color: #ffb8b8;
+    --background-light: rgba(255, 255, 255, 0.95);
+    --card-color-1: #b8a9d6;
+    --card-color-2: #ffb8b8;
+    --card-color-3: #a8e6cf;
+    
+    /* Шрифты */
+    --font-main: Arial, sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    
+    /* Отступы */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Тени */
+    --shadow-light: 0 4px 15px rgba(141, 113, 179, 0.1);
+    --shadow-medium: 0 6px 20px rgba(141, 113, 179, 0.15);
+    --shadow-heavy: 0 8px 25px rgba(141, 113, 179, 0.35);
+}

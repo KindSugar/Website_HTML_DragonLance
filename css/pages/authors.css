@@ -1,0 +1,92 @@
+/* Стили для страницы авторов */
+.authors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.author-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+}
+
+.author-basic-info {
+    flex: 1;
+}
+
+.author-basic-info .small-text {
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.author-details {
+    background: var(--background-light);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid var(--secondary-color);
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.author-item:hover .author-details {
+    opacity: 1;
+    visibility: visible;
+    max-height: 200px;
+}
+
+.author-details h4 {
+    color: #5a4b7c;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.author-details p {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Режиссеры */
+.directors-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.director-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.director-info {
+    flex: 1;
+}
+
+.director-info .small-text {
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.director-details {
+    margin-top: 10px;
+}
+
+.director-details p {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 8px 0;
+}
